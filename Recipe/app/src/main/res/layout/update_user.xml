@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="#2300B8D4"
+        tools:context=".usespinner.SpinnerActivity">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="请输入你的姓名"
+            android:textColor="#44BDED"
+            android:textSize="20sp" />
+        <!--输入框-->\
+        <EditText
+            android:id="@+id/et_user_name"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_edittext"></EditText>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="请选择你的性别"
+            android:textColor="#44BDED"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spin_two"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择您的省份"
+            android:textColor="#44BDED"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spin_one"
+            android:layout_width="140dp"
+            android:layout_height="64dp"
+            android:entries="@array/mydatas"
+            android:prompt="@string/spin_title"
+            android:spinnerMode="dialog" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择您的喜好"
+            android:textColor="#44BDED"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/lucai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#44BDED"
+            android:text="鲁菜" />
+
+        <CheckBox
+            android:id="@+id/chuancai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#44BDED"
+            android:text="川菜" />
+
+        <CheckBox
+            android:id="@+id/yuecai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#44BDED"
+            android:text="粤菜" />
+
+        <CheckBox
+            android:id="@+id/sucai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#44BDED"
+            android:text="苏菜 "/>
+
+        <CheckBox
+            android:id="@+id/zhecai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#44BDED"
+            android:text="浙菜" />
+        <CheckBox
+            android:id="@+id/xiangcai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#44BDED"
+            android:text="湘菜" />
+        <CheckBox
+            android:id="@+id/huicai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#44BDED"
+            android:text="徽菜" />
+
+        <Button
+            android:id="@+id/baocunxiugai"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/btn_selector"
+            android:text="保存修改"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

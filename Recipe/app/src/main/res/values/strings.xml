@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">菜鸟菜谱</string>
+    <string name="tab_menu_alert">主页</string>
+    <string name="tab_menu_profile">笔记</string>
+    <string name="tab_menu_pay">计时</string>
+    <string name="tab_menu_setting">我的</string>
+    <string name="action_settings">在Strings.xml</string>
+    <string name="spin_title">省份</string>
+    <string name="edit_login">0123456789abcdefghijklmnopqrstuvwxyz</string>
+</resources>
